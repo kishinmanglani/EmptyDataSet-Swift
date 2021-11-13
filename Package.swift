@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "EmptyDataSet-Swift",
-            path: "Sources",
+            path: "EmptyDataSet-Swift",
             exclude: [
                 "Info.plist",
             ]
