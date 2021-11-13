@@ -8,13 +8,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "EmptyDataSet-Swift",
-            targets: ["EmptyDataSet-Swift"]
+            name: "EmptyDataSet",
+            targets: ["EmptyDataSet"]
         ),
     ],
     targets: [
         .target(
-            name: "EmptyDataSet-Swift",
+            name: "EmptyDataSet",
             path: "EmptyDataSet-Swift",
             exclude: [
                 "Info.plist",
